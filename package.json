@@ -1,6 +1,6 @@
 {
   "name": "test-rails-with-cypress",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Starts a ruby on rails server waits for URL, then runs the test command, when the tests end, shuts down server",
   "main": "src/",
   "bin": {
