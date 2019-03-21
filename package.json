@@ -1,0 +1,27 @@
+{
+  "name": "test-rails-with-cypress",
+  "version": "1.0.0",
+  "description": "Starts a ruby on rails server waits for URL, then runs the test command, when the tests end, shuts down server",
+  "main": "src/",
+  "bin": {
+    "test-rails-with-cypress": "bin/start.js"
+  },
+  "scripts": {},
+  "keywords": [
+    "webpacker",
+    "rails",
+    "cypress",
+    "test"
+  ],
+  "author": "Carlos Garcia Ortiz <yo@carlosgo.me>",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "3.5.3",
+    "check-more-types": "2.24.0",
+    "debug": "4.1.1",
+    "execa": "1.0.0",
+    "lazy-ass": "1.6.0",
+    "ps-tree": "1.2.0",
+    "wait-on": "3.2.0"
+  }
+}
